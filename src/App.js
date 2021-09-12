@@ -1,8 +1,8 @@
-import NavBar from "./components/navbar/NavBar";
+import PersonalWeb from './components/navbar/PersonalWeb'
 
 function App() {
   return (
-    <NavBar />
+    <PersonalWeb />
   );
 }
 
