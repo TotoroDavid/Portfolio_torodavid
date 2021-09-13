@@ -1,3 +1,6 @@
+/**
+ * menu and logo Home_page
+ */
 import { NavLink } from 'react-router-dom'
 
 const Menu = () => {
@@ -25,16 +28,6 @@ const Menu = () => {
                 </div>
                 <div className="col-6 col-sm-2 ">
                     <NavLink to="/contact" className='container__home'>.Contact()</NavLink>
-                </div>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-6 '>
-
-                        </div>
-                        <div className='col-6 '>
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

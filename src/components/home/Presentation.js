@@ -1,4 +1,6 @@
-import React from 'react'
+/**
+ * presentation section
+ */
 
 const Presentation = () => {
     return (
@@ -38,24 +40,27 @@ const Presentation = () => {
                     </div>
                 </div>
             </div>
-            <div className='container '>
-                <div className='cont_title'>
+            <div className='container_main_skills '>
+                <div className=''>
                     <div class="container__skills ">
                         <h1 class='skills__title'>SKILLS</h1>
                     </div>
                 </div>
                 <div className='skills_introduction'>
-                    <li>
-                        Front-end development using HTML5, CSS3, Vanilla JS, React, Redux.
-                    </li>
-                    <br />
-                    <li>Backend development using Node, Express.</li>
-                    <br />
-                    <li>
-                        Architectural design for Relational Database Management Systems as well as for NoSQL database systems like MongoDB.
-                    </li>
-                    <br />
-                    <li> Robust full-stack system design implementation.</li>
+                    <div className='skill_intro'>
+                        <li>
+                            Front-end development using HTML5, CSS3, Vanilla JS, React, Redux.
+                        </li>
+                        <br />
+                        <li>Backend development using Node, Express.</li>
+                        <br />
+                        <li>
+                            Architectural design for Relational Database Management Systems as well as for NoSQL database systems like MongoDB.
+                        </li>
+                        <br />
+                        <li> Robust full-stack system design implementation.</li>
+                    </div>
+
                 </div>
             </div>
         </>

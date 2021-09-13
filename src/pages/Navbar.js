@@ -1,3 +1,7 @@
+/**
+ * 
+ */
+
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
@@ -5,12 +9,15 @@ import * as AiIcons from 'react-icons/ai'
 import { IconContext } from 'react-icons/lib'
 import { BiDotsVerticalRounded } from '@react-icons/all-files/bi/BiDotsVerticalRounded'
 
-//menu_data 
-import { SidebarData } from './SidebarData'
-//sudComponent
-import SubMenu from '../SubMenu'
+/**menu data*/
+import { Navbar_data } from '../components/Navbar/Navbar_data'
+/**menu */
+import Menu from '../components/Navbar/Menu'
+/**styles */
+import '../components/Navbar/styles.css'
 
-const Sidebar = () => {
+
+const Navbar = () => {
 
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
@@ -28,9 +35,9 @@ const Sidebar = () => {
                         <NavIcon to='#' >
                             <AiIcons.AiOutlineClose onClick={showSidebar} />
                         </NavIcon>
-                        {SidebarData.map((item, index) => {
+                        {Navbar_data.map((item, index) => {
                             return (
-                                <SubMenu item={item} key={index} />
+                                <Menu item={item} key={index} />
                             )
                         })}
                     </SidebarWrap>
@@ -40,7 +47,7 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar
+export default Navbar
 
 
 /**

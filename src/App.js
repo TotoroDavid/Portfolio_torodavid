@@ -1,9 +1,14 @@
-import PersonalWeb from './components/navbar/PersonalWeb'
+//routes
+import Portfolio from './routes/Portfolio'
+//globals_styles
+import './styles.css'
 
-function App() {
+const App = () => {
   return (
-    <PersonalWeb />
-  );
+    <div>
+      <Portfolio />
+    </div>
+  )
 }
 
-export default App;
+export default App

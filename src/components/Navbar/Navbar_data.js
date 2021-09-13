@@ -4,7 +4,7 @@
  */
 import * as RiIcons from 'react-icons/ri'
 
-export const SidebarData = [
+export const Navbar_data = [
     {
         title: '.Home',
         path: '/',

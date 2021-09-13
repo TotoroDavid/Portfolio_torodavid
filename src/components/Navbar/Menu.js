@@ -1,11 +1,14 @@
+/**
+ * Menu navbar
+ */
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const SubMenu = ({ item }) => {
+const Menu = ({ item }) => {
 
     const [subnav, setSubnav] = useState(false)
-
     const showSubnav = () => setSubnav(!subnav)
 
     return (
@@ -34,10 +37,10 @@ const SubMenu = ({ item }) => {
                 )
             })}
         </>
-    );
-};
+    )
+}
 
-export default SubMenu;
+export default Menu
 
 
 /**
