@@ -231,15 +231,13 @@ introduction
 
 
 /* 
-END presentation_section 
+!END presentation_section 
 */
 
 
 /* 
-skills section 
+!skills section 
 */
-
-.cont_title {}
 
 .skills_introduction {
     transform: translate(4px, 4px);
@@ -274,17 +272,6 @@ skills section
     box-shadow: 0 0 0 0 #000, inset -2px -2px 0 4px #CCC;
 }
 
-@media screen and (max-width: 425px) {
-    .skill_intro {
-        /* margin-left: 5px;
-        padding-right: 5px; */
-    }
-    .skills_introduction {
-        margin-left: 3px;
-        margin-right: 7px;
-    }
-}
-
 
 /* skills  */
 
@@ -317,13 +304,19 @@ h1 {
 }
 
 
-/* skills section */
+/* !skills section */
+
+.cont_all_skills {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
 
 .cont_skills {
     display: flex;
     flex-direction: row;
     font-size: 1.5rem;
-    margin: 5px;
+    margin: 10px;
+    padding-bottom: 5px;
 }
 
 .cont_skills:hover {
@@ -418,3 +411,51 @@ WORK
     padding: 0px;
     margin: 10px;
 }
+
+
+/* !SOCIAL SECTION */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+.cont_else p {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.cont_social {
+    display: flex;
+    flex-direction: column;
+    font-family: Work Sans, sans-serif;
+}
+
+.cont_social_title p {
+    text-transform: uppercase;
+    color: black;
+    margin-left: 10px;
+    font-family: Work Sans, sans-serif;
+    margin-bottom: 0;
+    font-size: 3.2vw;
+}
+
+.cont_social a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Work Sans, sans-serif;
+    font-weight: bold;
+    color: #272343;
+    font-size: 4.9vw;
+    margin: 10px;
+}
+
+.cont_social a:hover {
+    border-radius: 4px;
+    background: #e0e0e0;
+    box-shadow: 50px 50px 100px #9d9d9d, -50px -50px 100px #ffffff;
+    transition: all 2;
+    color: black;
+}
+
+
+/* !responsive */
+
+@media screen and (max-width: 425px) {}

@@ -32,13 +32,13 @@ const Connection = () => {
                     </p>
                     <div className='cont_button'>
                         <div>
-                            <NavLink to="/work" className='container__home'>About Me.</NavLink>
+                            <NavLink to="/about" className='container__home'>About Me.</NavLink>
                         </div>
                         <a
-                            href='https://github.com/TotoroDavid'
+                            href='https://cv-resume-davidtoro.netlify.app/'
                             target='_blank'
                             className='container__home' rel="noreferrer">
-                            My CV/resume
+                            My CV/Resume
                         </a>
                     </div>
                 </div>

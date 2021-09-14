@@ -4,6 +4,8 @@ import Menu from '../components/Home/Menu'
 //styles
 import '../components/Home/styles.css'
 import Connection from '../components/Home/Connection'
+import Social from '../components/Home/Social'
+
 
 const Home = () => {
     return (
@@ -11,6 +13,7 @@ const Home = () => {
             <Menu />
             <Presentation />
             <Connection />
+            <Social />
         </>
     )
 }
