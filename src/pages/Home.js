@@ -5,6 +5,7 @@ import Menu from '../components/Home/Menu'
 import '../components/Home/styles.css'
 import Connection from '../components/Home/Connection'
 import Social from '../components/Home/Social'
+import Footer from '../components/Home/Footer'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Presentation />
             <Connection />
             <Social />
+            <Footer />
         </>
     )
 }

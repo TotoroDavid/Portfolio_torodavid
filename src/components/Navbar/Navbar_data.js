@@ -15,7 +15,7 @@ export const Navbar_data = [
         subNav: [
             {
                 title: '.Work',
-                path: '/home/work',
+                path: '/work',
                 // icon: <IoIcons.IoIosPaper />
             },
             {

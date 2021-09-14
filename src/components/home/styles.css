@@ -276,8 +276,7 @@ introduction
 /* skills  */
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@400;500;700&display=swap');
-.skills__title,
-h1 {
+.skills__title h1 {
     font-family: "Bungee Shade", serif;
     font-size: 6rem;
     font-size: clamp(4rem, 7vw, 6rem);
