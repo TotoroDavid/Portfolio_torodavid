@@ -251,15 +251,17 @@ skills section
     margin-top: -25px;
     padding-top: 50px;
     padding-bottom: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
     position: relative;
     z-index: 1;
 }
 
 .skill_intro {
-    margin-left: 110px;
-    padding-right: 140px;
+    margin-left: 0px;
+    padding-right: 0px;
     font-size: 2rem;
     justify-content: center;
     justify-items: center;
@@ -270,6 +272,17 @@ skills section
     color: #fff;
     transform: translate(4px, 4px);
     box-shadow: 0 0 0 0 #000, inset -2px -2px 0 4px #CCC;
+}
+
+@media screen and (max-width: 425px) {
+    .skill_intro {
+        /* margin-left: 5px;
+        padding-right: 5px; */
+    }
+    .skills_introduction {
+        margin-left: 3px;
+        margin-right: 7px;
+    }
 }
 
 
@@ -304,15 +317,104 @@ h1 {
 }
 
 
+/* skills section */
+
+.cont_skills {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.cont_skills:hover {
+    border: solid 3px black;
+    background: #5f6c7b;
+    color: #fffffe;
+    transform: translate(4px, 4px);
+    box-shadow: 0 0 0 0 #000, inset -2px -2px 0 4px #CCC;
+}
+
+.skills_icon {
+    width: 72px;
+}
+
+.skills_icon img {
+    width: 72px;
+}
+
+.cont_desc p {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
 /* responsive*/
 
-@media screen and (max-width: 425px) {
-    .skill_intro {
-        margin-left: 5px;
-        padding-right: 5px;
-    }
-    .skills_introduction {
-        margin-left: 3px;
-        margin-right: 7px;
-    }
+
+/* 
+WORK
+*/
+
+.cont_works {
+    background: #e3f6f5;
+    color: #2d334a;
+    margin-top: 90px;
+}
+
+.cont_works h2 {
+    color: #272343;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: -80px;
+}
+
+.cont_works p {
+    font-size: 1.5rem;
+}
+
+.cont_button {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.cont_button div {
+    border-radius: transparent;
+    background: #fffffe;
+    padding: 0px;
+    margin: 10px;
+}
+
+
+/* about me  */
+
+.cont_ME {
+    background: #d4d8f0 !important;
+    color: #2d334a;
+    margin-top: 90px;
+}
+
+.cont_ME h2 {
+    color: #272343;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: -80px;
+}
+
+.cont_ME p {
+    font-size: 1.5rem;
+}
+
+.cont_button {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.cont_button div {
+    border-radius: transparent;
+    background: #fffffe;
+    padding: 0px;
+    margin: 10px;
 }

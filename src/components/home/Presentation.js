@@ -2,6 +2,8 @@
  * presentation section
  */
 
+import SkillsDescription from "./SkillsDescription"
+
 const Presentation = () => {
     return (
         <>
@@ -46,21 +48,8 @@ const Presentation = () => {
                         <h1 class='skills__title'>SKILLS</h1>
                     </div>
                 </div>
-                <div className='skills_introduction'>
-                    <div className='skill_intro'>
-                        <li>
-                            Front-end development using HTML5, CSS3, Vanilla JS, React, Redux.
-                        </li>
-                        <br />
-                        <li>Backend development using Node, Express.</li>
-                        <br />
-                        <li>
-                            Architectural design for Relational Database Management Systems as well as for NoSQL database systems like MongoDB.
-                        </li>
-                        <br />
-                        <li> Robust full-stack system design implementation.</li>
-                    </div>
-
+                <div>
+                    <SkillsDescription />
                 </div>
             </div>
         </>
