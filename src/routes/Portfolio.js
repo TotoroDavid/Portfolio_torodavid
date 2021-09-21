@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route }
 import About from "../pages/About"
 import ContactMe from "../pages/ContactMe"
 import Home from "../pages/Home"
+import Links from "../pages/Links"
 import Navbar from '../pages/Navbar'
 import { Work } from "../pages/Work"
 
@@ -22,6 +23,8 @@ const Portfolio = () => {
                 <Route path="/work" exact component={Work} />
                 <Route path="/about" exact component={About} />
                 <Route path="/contact" exact component={ContactMe} />
+                <Route path="/links" exact component={Links} />
+
             </Switch>
         </Router>
     )

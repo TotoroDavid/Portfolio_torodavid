@@ -20,20 +20,20 @@ export const Navbar_data = [
             },
             {
                 title: '.About',
-                path: '/home/about',
+                path: '/about',
                 // icon: <IoIcons.IoIosPaper />
             },
             {
                 title: '.Contact',
-                path: '/home/contact',
+                path: '/contact',
                 // icon: <IoIcons.IoIosPaper />
             }
         ]
     },
-    {
-        title: '.MyPortfolio',
-        path: '/portfolio'
-    },
+    // {
+    //     title: '.MyPortfolio',
+    //     path: '/portfolio'
+    // },
     {
         title: '.Links',
         path: '/links',

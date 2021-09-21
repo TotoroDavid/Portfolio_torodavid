@@ -34,17 +34,17 @@ const ContactMe = () => {
                                 </div>
                                 <div className='d-flex justify-content-center gray pt-3'>Follow me</div>
                                 <div className='col-md-12 d-flex flex-row justify-content-center'>
-                                    <a className='p-3 text-secondary text-decoration-none' href="">Tw</a>
-                                    <a className='p-3 text-secondary text-decoration-none' href="">Lk</a>
-                                    <a className='p-3 text-secondary text-decoration-none' href="">In</a>
-                                    <a className='p-3 text-secondary text-decoration-none' href="">Git</a>
+                                    <a className='p-3 text-secondary text-decoration-none' target='_blank' href="https://twitter.com/davidandrestoro">Tw</a>
+                                    <a className='p-3 text-secondary text-decoration-none' target='_blank' href="https://www.linkedin.com/in/davidtoro90/">Lk</a>
+                                    <a className='p-3 text-secondary text-decoration-none' target='_blank' href="https://www.instagram.com/totorodavid/">In</a>
+                                    <a className='p-3 text-secondary text-decoration-none' target='_blank' href="https://github.com/TotoroDavid">Git</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-6 p-0'>
                         <img
-                            src="https://avatars.githubusercontent.com/u/69094048?v=4" alt=""
+                            src="https://github.com/TotoroDavid/TotoroDavid.github.io/blob/main/IMG_6669.jpeg?raw=true" alt=""
                             className='container p-0' />
                     </div>
                 </div>

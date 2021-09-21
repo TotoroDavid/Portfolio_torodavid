@@ -1,0 +1,52 @@
+import Footer from '../components/Home/Footer'
+import '../components/Links/styles.css'
+
+const Links = () => {
+    return (
+        <>
+            <div className="container my__links">
+                <div className='row'>
+                    <div className='container p-0 m-0 col-md-12'>
+                        <img src="https://github.com/TotoroDavid/TotoroDavid.github.io/blob/main/69094048-modified.png?raw=true" alt="" />
+                    </div>
+                    <div className='container col-md-12'>
+                        <h1>Hello there!</h1>
+                    </div>
+                    <div className='container col-md-12'>
+                        <ul><li>
+                            <a href="/">Visit My Website</a>
+                        </li></ul>
+                    </div>
+                    <div className='container col-md-12'>
+                        <ul><li>
+                            <a target='_blank' href="https://cv-resume-davidtoro.netlify.app/">Read My Cv/Resume</a>
+                        </li></ul>
+                    </div>
+                    <div className='container col-md-12'>
+                        <ul><li>
+                            <a target='_blank' href="https://www.linkedin.com/in/davidtoro90/">See my linkedin </a>
+                        </li></ul>
+                    </div>
+                    <div className='container col-md-12'>
+                        <ul><li>
+                            <a target='_blank' href="https://github.com/TotoroDavid">Visit My GitHub</a>
+                        </li></ul>
+                    </div>
+                    <div className='container col-md-12'>
+                        <ul><li>
+                            <a target='_blank' href="https://www.instagram.com/totorodavid/">Visit My Instagram</a>
+                        </li></ul>
+                    </div>
+                    <div className='container col-md-12'>
+                        <ul><li>
+                            <a target='_blank' href="https://twitter.com/davidandrestoro">Visit My Twitter</a>
+                        </li></ul>
+                    </div>
+                </div>
+            </div>
+            <Footer />
+        </>
+    )
+}
+
+export default Links
