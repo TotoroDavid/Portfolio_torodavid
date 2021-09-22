@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import Footer from '../components/Home/Footer'
 import '../components/Links/styles.css'
 
@@ -14,32 +15,37 @@ const Links = () => {
                     </div>
                     <div className='container col-md-12'>
                         <ul><li>
-                            <a href="/">Visit My Website</a>
+                            <NavLink to='/home'>Visit My Website</NavLink>
                         </li></ul>
                     </div>
                     <div className='container col-md-12'>
                         <ul><li>
-                            <a target='_blank' href="https://cv-resume-davidtoro.netlify.app/">Read My Cv/Resume</a>
+                            <a target='_blank' rel='noreferrer' href="https://cv-resume-davidtoro.netlify.app/">Read My Cv/Resume</a>
                         </li></ul>
                     </div>
                     <div className='container col-md-12'>
                         <ul><li>
-                            <a target='_blank' href="https://www.linkedin.com/in/davidtoro90/">See my linkedin </a>
+                            <NavLink to='/work'>my Dev. Portfolio</NavLink>
                         </li></ul>
                     </div>
                     <div className='container col-md-12'>
                         <ul><li>
-                            <a target='_blank' href="https://github.com/TotoroDavid">Visit My GitHub</a>
+                            <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/davidtoro90/">See my linkedin </a>
                         </li></ul>
                     </div>
                     <div className='container col-md-12'>
                         <ul><li>
-                            <a target='_blank' href="https://www.instagram.com/totorodavid/">Visit My Instagram</a>
+                            <a target='_blank' rel='noreferrer' href="https://github.com/TotoroDavid">Visit My GitHub</a>
                         </li></ul>
                     </div>
                     <div className='container col-md-12'>
                         <ul><li>
-                            <a target='_blank' href="https://twitter.com/davidandrestoro">Visit My Twitter</a>
+                            <a target='_blank' rel='noreferrer' href="https://www.instagram.com/totorodavid/">Visit My Instagram</a>
+                        </li></ul>
+                    </div>
+                    <div className='container col-md-12'>
+                        <ul><li>
+                            <a target='_blank' rel='noreferrer' href="https://twitter.com/davidandrestoro">Visit My Twitter</a>
                         </li></ul>
                     </div>
                 </div>

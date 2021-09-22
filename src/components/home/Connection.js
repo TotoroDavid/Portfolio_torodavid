@@ -8,7 +8,8 @@ const Connection = () => {
                     <h2>WORK</h2>
                     <div>
                         <p>
-                            a small portfolio of my recent projects by me. I have done them all together in the last year of my life. It is only a drop in the ocean compared to the entire list of my projects I have done.
+                            a small portfolio of my recent projects done by myself.
+                            I have done all of them on the last year. It is only a drop in the ocean compared to the entire list of the projects that I have done.
                         </p>
                     </div>
                     <div className='cont_button'>
@@ -26,9 +27,9 @@ const Connection = () => {
                 <div className='col-md-6 col-sm-12 cont_ME'>
                     <h2>ME</h2>
                     <p>
-                        I am always experimenting, always learning, and never bored.
+                        I am always experimenting, always learning, and never get bored.
                         You can read more about me and my skills,
-                        education and much more in the link below
+                        my skills and detail background in the link below.
                     </p>
                     <div className='cont_button'>
                         <div>

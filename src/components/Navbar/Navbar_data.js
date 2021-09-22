@@ -7,7 +7,7 @@ import * as RiIcons from 'react-icons/ri'
 export const Navbar_data = [
     {
         title: '.Home',
-        path: '/',
+        path: '/home',
         // icon: <AiIcons.AiFillHome />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -36,6 +36,6 @@ export const Navbar_data = [
     // },
     {
         title: '.Links',
-        path: '/links',
+        path: '/',
     },
 ]

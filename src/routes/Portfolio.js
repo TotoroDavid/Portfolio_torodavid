@@ -19,11 +19,11 @@ const Portfolio = () => {
         <Router>
             <Navbar />
             <Switch>
-                <Route path="/" exact component={Home} />
+                <Route path="/" exact component={Links} />
+                <Route path="/home" exact component={Home} />
                 <Route path="/work" exact component={Work} />
                 <Route path="/about" exact component={About} />
                 <Route path="/contact" exact component={ContactMe} />
-                <Route path="/links" exact component={Links} />
 
             </Switch>
         </Router>
