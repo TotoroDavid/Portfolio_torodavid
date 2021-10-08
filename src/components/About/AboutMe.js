@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <div className='col-md-12'>
                     <div className='container photo'>
                         <h2>TotoroDavid</h2>
-                        <img src="https://github.com/TotoroDavid/TotoroDavid.github.io/blob/main/img/0E85E80B-91EC-4B03-8834-7E6D7CDB650A000.jpg?raw=true" alt="" />
+                        <img src="https://github.com/TotoroDavid/TotoroDavid.github.io/blob/main/IMG_1551.jpeg?raw=true" alt="" />
                     </div>
                 </div>
                 <div>

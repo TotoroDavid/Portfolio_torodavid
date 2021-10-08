@@ -8,7 +8,7 @@ const Links = () => {
             <div className="container my__links">
                 <div className='row'>
                     <div className='container p-0 m-0 col-md-12'>
-                        <img src="https://github.com/TotoroDavid/TotoroDavid.github.io/blob/main/69094048-modified.png?raw=true" alt="" />
+                        <img src="https://github.com/TotoroDavid/TotoroDavid.github.io/blob/main/IMG_1551-modified.png?raw=true" alt="" />
                     </div>
                     <div className='container col-md-12'>
                         <h1>Hello there!</h1>

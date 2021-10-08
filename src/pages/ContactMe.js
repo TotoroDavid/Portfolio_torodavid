@@ -44,7 +44,7 @@ const ContactMe = () => {
                     </div>
                     <div className='col-md-6 p-0'>
                         <img
-                            src="https://github.com/TotoroDavid/TotoroDavid.github.io/blob/main/IMG_6669.jpeg?raw=true" alt=""
+                            src="https://github.com/TotoroDavid/TotoroDavid.github.io/blob/main/IMG_1554.jpeg?raw=true" alt=""
                             className='container p-0' />
                     </div>
                 </div>
